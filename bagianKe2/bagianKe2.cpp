@@ -26,11 +26,14 @@ void mahasiswa::setID() {
     id = ++nim;
 }
 
-
+void mahasiswa::printAll() {
+    cout << "ID= " << nim << endl;
+    cout << "Nama= " << nama << endl;
+}
 
 int main()
 {
-    std::cout << "Hello World!\n";
+
 }
 
 
