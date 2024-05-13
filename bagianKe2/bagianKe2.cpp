@@ -20,6 +20,14 @@ public:
     mahasiswa(string pnama) : nama(pnama) { setID(); }
 };
 
+int mahasiswa::nim = 20230140104;
+
+void mahasiswa::setID() {
+    id = ++nim;
+}
+
+
+
 int main()
 {
     std::cout << "Hello World!\n";
