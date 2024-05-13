@@ -34,7 +34,16 @@ void mahasiswa::PrintAll() {
 
 int main()
 {
-    
-}
+    mahasiswa mhs1("lisa kurnia");
+    mahasiswa mhs2("Asroni");
+    mahasiswa mhs3("Amdi kurniawan");
+    mahasiswa mhs4("joko purbo");
 
+    mhs1.PrintAll();
+    mhs2.PrintAll();
+    mhs3.PrintAll();
+    mhs4.PrintAll();
+
+    return 0;
+}
 
