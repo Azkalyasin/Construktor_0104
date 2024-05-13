@@ -20,6 +20,7 @@ public:
 
 };
 
+int mahasiswa::nim = 10;
 
 
 int main()
