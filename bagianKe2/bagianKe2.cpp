@@ -8,7 +8,7 @@ class mahasiswa {
 private:
     static int long nim;
 public:
-    int long id;
+    int  long id;
     string nama;
 
     void setID();
@@ -35,6 +35,8 @@ int main()
 {
     mahasiswa mhs1("Azkal Adzkia yassin");
     mahasiswa mhs2("eko saputra");
+
+
     mahasiswa::setNim(9);
     mahasiswa mhs3("andi janu");
     mahasiswa mhs4("joko wahono");
@@ -45,6 +47,8 @@ int main()
     mhs3.printAll();
     mhs4.printAll();
 
+
+    cout << "akses dari luar objeck = " << mahasiswa::getNim() << endl;
     return 0;
     
 
